@@ -1,6 +1,6 @@
 def UrlLoader(Urls):
-    from langchain.document_loaders import WebBaseLoader
+    from langchain.document_loaders import UnstructuredURLLoader
 
-    loader = WebBaseLoader(Urls)
+    loader = UnstructuredURLLoader(Urls)
     docs = loader.load()
     return docs
