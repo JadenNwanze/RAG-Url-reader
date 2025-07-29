@@ -18,7 +18,7 @@ This project showcases not only advanced NLP concepts, but also **production-gra
 
 ---
 
-## 🔧 Key Features
+## Key Features
 
 -  **End-to-End RAG Pipeline** – From raw web content to intelligent answers in one system
 -  **Natural Language QA** – Uses LangChain and LLMs to generate accurate, human-like answers
@@ -32,7 +32,7 @@ This project showcases not only advanced NLP concepts, but also **production-gra
 
 ##  MLOps Methodologies Applied
 
-This project goes beyond prototyping by integrating MLOps principles throughout its lifecycle:
+This project goes beyond prototyping, by integrating MLOps principles throughout its lifecycle:
 
 ###  Modular Pipeline Design
 Each core functionality—scraping, embedding, vector storage, and question-answering—is encapsulated into standalone, reusable modules. This improves scalability, maintainability, and ease of testing.
