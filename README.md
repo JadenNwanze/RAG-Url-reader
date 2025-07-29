@@ -38,7 +38,7 @@ This project goes beyond prototyping, by integrating MLOps principles throughout
 Each core functionality—scraping, embedding, vector storage, and question-answering—is encapsulated into standalone, reusable modules. This improves scalability, maintainability, and ease of testing.
 
 ### Reproducibility
-- Clear dependency management through `requirements.txt`
+- Clear dependency management through requirements.txt
 - Deterministic embedding and storage pipeline ensures consistency across runs
 
 ### Containerization-Ready
