@@ -94,3 +94,7 @@ Due to platform cost constraints, the project has **not been deployed live** yet
 ## How to use
 - uvicorn app.backend:app --reload, to run Fastapi backend
 - streamlit run app/frontend.py, to run Streamlit UI
+
+## To view the Proof of Concept(POC):
+- Use this link:
+- https://rag-url-reader.streamlit.app/
