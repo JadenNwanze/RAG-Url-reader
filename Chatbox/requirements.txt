@@ -5,3 +5,4 @@ pydantic==2.11.7
 Requests==2.32.4
 streamlit==1.46.0
 transformers==4.53.3
+supervisor
