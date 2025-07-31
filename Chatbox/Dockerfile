@@ -1,11 +1,17 @@
-FROM  python:3.11-slim-buster
+FROM python:3.11-slim-buster
 
 WORKDIR /app
 
 COPY . /app
 
-RUN pip install -r requirements.txt
+RUN apt-get update && apt-get install -y supervisor \
+ && pip install --upgrade pip \
+ && pip install -r requirements.txt
 
-EXPOSE
+# Copy supervisor config
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-CMD ["uvicorn", "app.backend:app", "--host", "0.0.0.0", "--port", "10000"]
+EXPOSE 8501
+EXPOSE 10000
+
+CMD ["/usr/bin/supervisord"]
